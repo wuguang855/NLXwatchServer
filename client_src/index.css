@@ -1,0 +1,176 @@
+html {
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 20, 1);
+}
+
+body {
+    overflow: hidden;
+    width: 1920px;
+    height: 1080px;
+    margin: 0;
+    background-color: rgba(0, 0, 20, 1);
+    background-image: url(./img/bg.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: top center;
+    transform-origin: left top;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.block1 {
+    width: 555px;
+    height: 265px;
+    position: absolute;
+}
+
+.block2 {
+    width: 933px;
+    height: 328px;
+    position: absolute;
+   
+}
+
+.block3 {
+    width: 770px;
+    height: 580px;
+    position: absolute;
+}
+
+#left_top {
+    left: 20px;
+    top: 147px;
+}
+#rotate {
+    position: absolute;
+    top:42px;
+    left:282px;
+    transform-origin:left top;
+    transform:scale(.6,.6);
+}
+#left_center {
+    left: 20px;
+    top: 439px;
+}
+
+#left_bottom {
+    left: 20px;
+    top: 730px;
+}
+
+#center {
+    left: 575px;
+    top: 147px;
+}
+#pnum1{
+    position: absolute;
+    top:20px;
+    left:40px;
+    transform-origin:left top;
+    transform:scale(.7,.7);
+}
+#pnum2{
+    top:20px;
+    left:276px;
+    position: absolute;
+    transform-origin:left top;
+    transform:scale(.7,.7);
+}
+#pnum3{
+    top:20px;
+    left:518px;
+    position: absolute;
+    transform-origin:left top;
+    transform:scale(.7,.7);
+}
+#bubble{
+    top:82px;
+    left:0px;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+}
+#right_top {
+    left: 1346px;
+    top: 147px;
+}
+#right_top_1{
+    
+    height:198px;
+    padding-bottom:22px;
+    overflow:hidden;
+    position: relative;
+    top:45px;
+} 
+#right_center {
+    left: 1346px;
+    top: 439px;
+}
+
+#right_bottom {
+    left: 968px;
+    top: 730px;
+}
+#font{
+    width:102px;
+    height:139px;
+    position: absolute;
+    top:81px;
+    left:102px;
+    color:#3AFFFD;
+    font-size:18px;
+}
+#font div{
+    margin-bottom:8px;
+}
+#mountPassAndFail,#mountAllShell,#mountPrivatePass,#mountPrivateFail{
+    position: absolute;
+    width:276px;
+    height: 265px;
+}
+#mountAllShell{
+    left:268px;
+}
+#mountPrivateFail{
+    left:268px;
+}
+ /* 这里待定，右侧轮播 */
+.divSwiper{
+    height:38px;
+    margin-bottom: 17px;
+    padding-left: 15px;
+    display: flex;
+    align-content: center;
+}
+.bg_span,.bg_span2{
+    line-height: 38px;
+    display:inline-block;
+    height:38px;
+    width:38px;
+    border-radius:50%;
+    background-image:url('./img/pass.png');
+    background-size:100%;
+    background-repeat: no-repeat;
+    font-size:13px;
+    color:#fff;
+    font-weight:bolid;
+    text-align:center;
+}
+
+.bg_span2{ background-image:url('./img/fail.png');}
+.pSwiper{   display: inline-block;height:36px; font-size: 9px; width: 250px; color:#fff;margin:0;padding-left:11px;}
+.pSwiper span{ display: block; height: 50%; padding: none; padding-left: 2px;}
+.timeS{ color:#fff;width: 180px; font-size: 8px; height: 44px; line-height: 44px; text-align: right; }
+#containerMy{
+    position: absolute;
+    top:0px;
+ 
+}
+.active {
+    transition:all  2s;
+}

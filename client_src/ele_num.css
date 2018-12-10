@@ -1,0 +1,57 @@
+.e_num {
+    display: inline-block;
+    height: 58px;
+    width: 47px;
+    background-position: 0 58px;
+    background-image: url(./img/e_num.png);
+    background-repeat: no-repeat;
+    transition: all 0.4s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+}
+.e_space{
+    display: inline-block;
+    height: 58px;
+    width: 47px; 
+}
+._0 {
+    background-position: 0 0;
+}
+
+._1 {
+    background-position: 0 -58px;
+}
+
+._2 {
+    background-position: 0 -116px;
+}
+
+._3 {
+    background-position: 0 -175px;
+}
+
+._4 {
+    background-position: 0 -232px;
+}
+
+._5 {
+    background-position: 0 -290px;
+}
+
+._6 {
+    background-position: 0 -349px;
+}
+
+._7 {
+    background-position: 0 -406px;
+}
+
+
+._8 {
+    background-position: 0 -463px;
+}
+
+._9 {
+    background-position: 0 -522px;
+}
